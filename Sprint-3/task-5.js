@@ -7,7 +7,7 @@ const product = function () {
 const contextObj = { product: 10 };
 
 const getProduct = (...arg) => {
-  return product.call(contextObj, 2,3, ...arg);
+  return product.call(contextObj, 2, 3, ...arg);
 };
 
 console.log(getProduct(4, 5));

@@ -1,7 +1,6 @@
 class Distributor {
   constructor() {
     this.products = {
-
     };
   }
   addProduct(id, name) {
