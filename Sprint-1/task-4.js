@@ -7,7 +7,7 @@ function factorial(n) {
         n--;
         result = n * result;
     }
-return result;
+    return result;
 };
 
 function processArray(arr, factorial) {
