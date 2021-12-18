@@ -1,0 +1,26 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules":
+     {
+        "indent": "error",
+        "space-infix-ops": "error",
+        "no-var": "error",
+        "prefer-const": "error",
+        "eqeqeq": "error",
+        "no-console": "error",
+        "no-cond-assign": "error",
+        "no-extra-semi": 2,
+        "no-inline-comments": "error",
+        "no-else-return": "error",
+        "quotes": ["error", "single"],
+        "operator-assignment": ["error", "never"]
+    }
+}
