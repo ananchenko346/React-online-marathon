@@ -10,7 +10,7 @@
     },
     "rules":
      {
-        "indent": "error",
+        "indent": ["error", 4],
         "space-infix-ops": "error",
         "no-var": "error",
         "prefer-const": "error",
