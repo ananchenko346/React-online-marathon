@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+}
+
+.wrapper-app {
+    min-height: 100vh;
+    background-color: #111;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
