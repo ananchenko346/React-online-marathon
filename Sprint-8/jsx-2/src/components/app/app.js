@@ -8,5 +8,5 @@ export default function App() {
         <MyLabel />
         <MyInput />
         <MyButton />
-    </div>;
+    </div>
 }
