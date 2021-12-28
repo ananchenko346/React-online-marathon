@@ -39,8 +39,12 @@ button {
   width: 32%;
   max-width: 32%;
 }
+
 .element {
   display: inline-block;
-  margin: 20px;
-  padding: 5px;
+  margin: 30px;
+}
+
+.text {
+  margin: 30px;
 }

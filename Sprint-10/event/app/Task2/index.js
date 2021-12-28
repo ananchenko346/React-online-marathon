@@ -38,20 +38,17 @@ export default class Task2 extends Component {
   render() {
     const {list, text} = this.state;
     return (
-      <>
-        {
-          list.map(el =>
-            <div key={el.id}>
-              <div className="element"
-                onMouseOver={() => this.onMouseOver(el.text)}
-                onMouseOut={this.onMouseOut}>
-                id - {el.id}
-              </div>
-              <li className="text">{text}</li>
-            </div>
-          )
-        }
-      </>
+      <div>
+        {list.map(el => (
+          <div key={el.id}
+            className="element"
+            onMouseOver={() => this.onMouseOver(el.text)}
+            onMouseOut={this.onMouseOut}>
+            id - {el.id}
+          </div>
+        ))}
+        <div className="text">{text}</div>
+      </div>
     )
   }
 }
