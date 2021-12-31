@@ -11,6 +11,7 @@ export default class App extends Component {
       appData: 'React Marathon'
     }
   }
+  
 
   changeText = () => {
     if (this.state.appData === 'React Marathon') {
