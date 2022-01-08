@@ -13,7 +13,7 @@ export default function App() {
 
   return (
     <div>
-      React Marathon, appData: <input size='5' defaultValue={state}></input>
+      React Marathon, appData: <input size="5" defaultValue={state}></input>
     </div>
   );
 }

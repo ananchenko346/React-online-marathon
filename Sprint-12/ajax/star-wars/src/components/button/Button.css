@@ -1,0 +1,10 @@
+.next {
+  width: 50%;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.button-wrapper {
+  display: flex;	
+  justify-content: center;	
+}
