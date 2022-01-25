@@ -7,11 +7,11 @@ it('calls axios', async () => {
     data: {
       results: ['Fact MOCHA']
     }
-  }))
+  }));
 
-  const images = await DataService('any data');
+  const res = await DataService('any data');
 
-  expect(images).toEqual({ 'data': { 'results': ['Fact MOCHA'] } });
+  expect(res).toEqual({'data':{'results': ['Fact MOCHA']}});
   expect(mockAxios.get).toHaveBeenCalledTimes(1);
 });
 
