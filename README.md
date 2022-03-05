@@ -1,5 +1,5 @@
 # React-online-marathon
-Main repository for React online marathon, this super-intensive coding marathon consists of 18 sprints
+Main repository for React online marathon, this super-intensive coding marathon consists of 18 sprints.
 
 The following topics and technologies and more were studied in detail at this marathon:
   - Data types, Array methods, Functions, Exceptions
