@@ -1,7 +1,6 @@
 # React-online-marathon
-Main repository for React online marathon, this super-intensive coding marathon consists of 18 sprints
 
-The following topics and technologies and more were studied in detail at this marathon:
+The following topics and technologies were on this marathon:
   - Data types, Array methods, Functions, Exceptions
   - Template strings, Scoping, Closures, Spread, IIFE, Default parameters, Arrow functions
   - Сlasses, this context(bind, call), Map/WeakMap/Set/WeakSet, Symbol
